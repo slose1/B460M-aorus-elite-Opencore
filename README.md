@@ -13,7 +13,7 @@
 |   Serial/COM Port    |           EHCI/XHCI Hand-off           |
 |         CSM          |           OS type: Windows 10          |
 |       CFG Lock       |            SATA Mode: AHCI             |
-|      Intel SGX       |               Secure Boot              |
+|      Intel SGX       |   Secure Boot(first install disable)   |
 |                      |                  VT-d                  |
 
 
@@ -32,7 +32,7 @@
 
 - OC/tools/CleanNvram.efi
 
-- OC/tools/boot.efi
+- OC/tools/boot.efi <- I found that the boot.efi of macOS might be different. Please import and add the boot.efi separately from /usr/standalone/i386 in finder.
 
 - kernel/fud/HPMUtil.efi
 
