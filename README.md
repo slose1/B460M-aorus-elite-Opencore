@@ -1,4 +1,4 @@
-- OpenCore version : 0.9.9
+- OpenCore version : 1.0.0
 ### PC Info
 
 - CPU : Intel 10700
@@ -17,28 +17,5 @@
 |                      |                  VT-d                  |
 
 
-
-### Secure Boot Setting
-  
-#### CUSTOM - Enroll EFI Image
-
-- BOOT/Bootx64.efi
-
-- OC/opencore.efi
-
-- OC/drivers/Openruntime.efi
-
-- OC/drivers/Opencanopy.efi
-
-- OC/tools/CleanNvram.efi
-
-- OC/tools/boot.efi <- I found that the boot.efi of macOS might be different. Please import and add the boot.efi separately from /usr/standalone/i386 in finder.
-
-- kernel/fud/HPMUtil.efi
-
-- kernel/fud/MultiUpdater.efi
-
-- kernel/i386/apfs_aligned.efi
-
-- kernel/i386/apfs.efi
-
+Known Issue
+USB 3.0 5Gbps Not Working (only 480mbps idk)
